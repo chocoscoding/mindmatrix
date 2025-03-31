@@ -41,7 +41,7 @@ export default function HeroSection() {
               maxOpacity={0.5}
               flickerChance={0.1}
               height={1300}
-              width={1900}
+              width={1300}
             />
 
             <div className="mx-auto max-w-7xl px-6">
