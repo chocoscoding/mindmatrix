@@ -26,7 +26,7 @@ export default function Howtobuy() {
     },
     "item-4": {
       image: "/profit.avif",
-      alt: "Buy MMT",
+      alt: "Buy MMX",
     },
     "item-5": {
       image: "/profit.avif",
@@ -72,7 +72,7 @@ export default function Howtobuy() {
               </AccordionTrigger>
               <AccordionContent>
                 {`Purchase SOL directly through Phantom's built-in fiat on-ramp or transfer cryptocurrency from another exchange or wallet.
-                Ensure you have enough to cover your MMT purchase and transaction fees.`}
+                Ensure you have enough to cover your MMX purchase and transaction fees.`}
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
@@ -84,18 +84,18 @@ export default function Howtobuy() {
               </AccordionTrigger>
               <AccordionContent>
                 {`Visit the Photon Exchange platform and click "Connect Wallet". Select Phantom from the wallet options and approve the
-                connection request in your Phantom wallet to access MMT trading.`}
+                connection request in your Phantom wallet to access MMX trading.`}
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>
                 <div className="flex items-center gap-2 text-base">
                   <DollarSign className="size-4" />
-                  Buy MMT
+                  Buy MMX
                 </div>
               </AccordionTrigger>
               <AccordionContent>
-                On the exchange interface, select the MMT/SOL trading pair. Enter the amount of MMT you want to purchase or the amount of
+                On the exchange interface, select the MMX/SOL trading pair. Enter the amount of MMX you want to purchase or the amount of
                 SOL you want to spend. Review the transaction details and confirm your purchase.
               </AccordionContent>
             </AccordionItem>
@@ -107,7 +107,7 @@ export default function Howtobuy() {
                 </div>
               </AccordionTrigger>
               <AccordionContent>
-                Congratulations, you now own the future of AI-driven blockchain! Your MMT tokens will appear in your Phantom wallet. Hold
+                Congratulations, you now own the future of AI-driven blockchain! Your MMX tokens will appear in your Phantom wallet. Hold
                 your tokens securely as Mind Matrix continues to revolutionize the blockchain space.
               </AccordionContent>
             </AccordionItem>

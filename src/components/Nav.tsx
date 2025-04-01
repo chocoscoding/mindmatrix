@@ -8,7 +8,8 @@ import { Logo } from "./logo";
 
 const menuItems = [
   { name: "Home", href: "/" },
-  { name: "Whitepaper", href: "whitepaper" },
+  { name: "Whitepaper", href: "/whitepaper" },
+  { name: "Tokenomics", href: "/tokenomics" },
 ];
 
 export const Nav = () => {

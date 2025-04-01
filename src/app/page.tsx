@@ -1,6 +1,6 @@
 import AboutUs from "@/components/AboutUs";
 import Howtobuy from "@/components/HowToBuy";
-import LaunchAndSupply from "@/components/LaunchAndSupply";
+// import LaunchAndSupply from "@/components/LaunchAndSupply";
 import Security from "@/components/Security";
 import HeroSection from "@/components/hero-section";
 
@@ -10,7 +10,7 @@ export default function Home() {
       <HeroSection />
       <AboutUs />
       <Security />
-      <LaunchAndSupply />
+      {/* <LaunchAndSupply /> */}
       <Howtobuy />
     </>
   );

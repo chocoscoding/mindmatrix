@@ -110,7 +110,9 @@ const Page = () => {
       <section className="py-16 md:py-24 bg-black/5">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center">
-            <HyperText className="bg-gradient-to-r from-purple-600 to-purple-100 inline-block text-transparent bg-clip-text font-sans">
+            <HyperText
+              animateOnHover={false}
+              className="bg-gradient-to-r from-purple-600 to-purple-100 inline-block text-transparent bg-clip-text font-sans">
               Additional Technical Sections
             </HyperText>
           </h2>
@@ -119,9 +121,9 @@ const Page = () => {
             {sections.map((section) => (
               <div
                 key={section.id}
-                className="rounded-xl border border-muted/20 p-6 bg-background/80 backdrop-blur-sm transition-all hover:border-purple-500/30 hover:shadow-lg hover:shadow-purple-500/10">
+                className="border border-purple-500/20 p-6 bg-background/80 backdrop-blur-sm transition-all hover:border-purple-500/35 hover:shadow-lg hover:shadow-purple-500/10 rounded-[10px]">
                 <div className="flex items-start gap-4 mb-4">
-                  <div className="bg-purple-500/10 p-3 rounded-lg">
+                  <div className="bg-purple-500/10 p-2 rounded-[6px]">
                     <Image src={section.icon} alt={section.title} width={24} height={24} />
                   </div>
                   <h3 className="text-xl font-semibold">{section.title}</h3>
@@ -175,7 +177,9 @@ const Page = () => {
       <section className="py-16 md:py-24 bg-black/5">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center">
-            <HyperText className="bg-gradient-to-r from-purple-600 to-purple-100 inline-block text-transparent bg-clip-text font-sans">
+            <HyperText
+              animateOnHover={false}
+              className="bg-gradient-to-r from-purple-600 to-purple-100 inline-block text-transparent bg-clip-text font-sans">
               Advanced Technical Features
             </HyperText>
           </h2>

@@ -21,17 +21,17 @@ Mind Matrix Firewall is an AI-powered security protocol designed to detect and e
 🚀 Launch Date: April 6, 2025, at 1:30 PM UTC
 The revolution begins April 6, 2025, at 1:30 PM UTC. This is your chance to get in early on the future of AI-powered blockchain evolution. Don’t miss out!
 Total Supply: Transparent & Fair Allocation
-•	Total Supply: 1,000,000,000 MMT
-•	Public Sale: 50% – 500,000,000 MMT
-•	Development Team (Vested 4 Years): 20% – 200,000,000 MMT
-•	Reserve Fund: 15% – 150,000,000 MMT
-•	Marketing & Partnerships: 10% – 100,000,000 MMT
-•	Community Rewards: 5% – 50,000,000 MMT
+•	Total Supply: 1,000,000,000 MMX
+•	Public Sale: 50% – 500,000,000 MMX
+•	Development Team (Vested 4 Years): 20% – 200,000,000 MMX
+•	Reserve Fund: 15% – 150,000,000 MMX
+•	Marketing & Partnerships: 10% – 100,000,000 MMX
+•	Community Rewards: 5% – 50,000,000 MMX
 How to Buy Mind Matrix
 1.	Set Up a Phantom Wallet – Secure your private keys and get ready.
 2.	Fund Your Wallet – Purchase or transfer cryptocurrency into Phantom.
-3.	Connect to Photon Exchange – Link your wallet to access MMT trading.
-4.	Buy MMT – Select MMT trading pair and confirm your purchase.
+3.	Connect to Photon Exchange – Link your wallet to access MMX trading.
+4.	Buy MMX – Select MMX trading pair and confirm your purchase.
 5.	HODL & Profit – Congratulations, you now own the future of AI-driven blockchain!
 Whitepaper: The Blueprint of Decentralized Intelligence
 Our whitepaper outlines the entire technical framework behind Mind Matrix, from AI-based computation models to blockchain consensus innovations. Read it to understand why Mind Matrix is unlike anything before it.

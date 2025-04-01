@@ -22,7 +22,7 @@ const LaunchAndSupply = () => {
           {/* Left Section: Text Content */}
           <div>
             <h4 className="text-lg font-semibold mb-2">Total Supply:</h4>
-            <p className="text-3xl md:text-4xl font-bold text-white mb-4">1,000,000,000 MMT</p>
+            <p className="text-3xl md:text-4xl font-bold text-white mb-4">1,000,000,000 MMX</p>
             <p className="text-slate-300 leading-relaxed mb-6">
               The revolution begins April 6, 2025, at 1:30 PM UTC. This is your chance to get in early on the future of AI-powered
               blockchain evolution. Don’t miss out!
@@ -31,31 +31,31 @@ const LaunchAndSupply = () => {
               <li className="flex items-start gap-2">
                 <span className="text-blue-400 mt-1">•</span>
                 <div>
-                  <span className="font-semibold">Public Sale:</span> 50% – 500,000,000 MMT
+                  <span className="font-semibold">Public Sale:</span> 50% – 500,000,000 MMX
                 </div>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-blue-400 mt-1">•</span>
                 <div>
-                  <span className="font-semibold">Development Team (Vested 4 Years):</span> 20% – 200,000,000 MMT
+                  <span className="font-semibold">Development Team (Vested 4 Years):</span> 20% – 200,000,000 MMX
                 </div>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-blue-400 mt-1">•</span>
                 <div>
-                  <span className="font-semibold">Reserve Fund:</span> 15% – 150,000,000 MMT
+                  <span className="font-semibold">Reserve Fund:</span> 15% – 150,000,000 MMX
                 </div>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-blue-400 mt-1">•</span>
                 <div>
-                  <span className="font-semibold">Marketing & Partnerships:</span> 10% – 100,000,000 MMT
+                  <span className="font-semibold">Marketing & Partnerships:</span> 10% – 100,000,000 MMX
                 </div>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-blue-400 mt-1">•</span>
                 <div>
-                  <span className="font-semibold">Community Rewards:</span> 5% – 50,000,000 MMT
+                  <span className="font-semibold">Community Rewards:</span> 5% – 50,000,000 MMX
                 </div>
               </li>
             </ul>

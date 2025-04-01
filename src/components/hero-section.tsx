@@ -6,6 +6,8 @@ import { AnimatedGroup } from "@/components/ui/animated-group";
 import ScrambleIn from "./animations/ScrambleIn";
 import HeroAnim from "./HeroAnim";
 import { FlickeringGrid } from "./magicui/flickering-grid";
+import { HoverBorderGradient } from "./ui/hover-border-gradient";
+import CountUp from "./animations/CountUp";
 
 const transitionVariants = {
   item: {
@@ -47,7 +49,7 @@ export default function HeroSection() {
             <div className="mx-auto max-w-7xl px-6">
               <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
                 <AnimatedGroup variants={transitionVariants}>
-                  <Link
+                  {/* <Link
                     href="/whitepaper"
                     className="hover:bg-background hover:border-t-border bg-muted group mx-auto flex w-fit items-center gap-4 rounded-full border p-1 pl-4 shadow-md transition-colors duration-300 border-t-white/5 shadow-zinc-950">
                     <span className="text-foreground text-sm">Read our whitepaper</span>
@@ -63,7 +65,17 @@ export default function HeroSection() {
                         </span>
                       </div>
                     </div>
-                  </Link>
+                  </Link> */}
+                  <div className="m-fit flex justify-center text-center">
+                    <HoverBorderGradient
+                      containerClassName="rounded-full border-[#e7bcff19]"
+                      as="button"
+                      className="bg-black text-white text-xl flex items-center space-x-2">
+                      <span>
+                        <CountUp className="font-sans" from={2999900} to={3000000} separator="," duration={2} /> Blocks <b> Processed</b>
+                      </span>
+                    </HoverBorderGradient>
+                  </div>
 
                   <h1 className="mt-8 text-balance text-5xl md:text-7xl lg:mt-16 xl:text-[5.5rem] z-2">
                     The Future of <br />
