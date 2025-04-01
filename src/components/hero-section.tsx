@@ -6,7 +6,7 @@ import ScrambleIn from "./animations/ScrambleIn";
 import HeroAnim from "./HeroAnim";
 import { FlickeringGrid } from "./magicui/flickering-grid";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
-import CountUp from "./animations/CountUp";
+import Counter from "./Counter";
 
 const transitionVariants = {
   item: {
@@ -71,7 +71,7 @@ export default function HeroSection() {
                       as="button"
                       className="bg-black text-white text-xl flex items-center space-x-2">
                       <span>
-                        <CountUp className="font-sans" from={2999900} to={3000000} separator="," duration={2} /> Blocks <b> Processed</b>
+                        <Counter /> Blocks <b> Processed</b>
                       </span>
                     </HoverBorderGradient>
                   </div>
