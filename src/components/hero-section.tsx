@@ -65,10 +65,10 @@ export default function HeroSection() {
                     </div>
                   </Link>
 
-                  <h1 className="mt-8 text-balance text-6xl md:text-7xl lg:mt-16 xl:text-[5.5rem] z-2">
+                  <h1 className="mt-8 text-balance text-5xl md:text-7xl lg:mt-16 xl:text-[5.5rem] z-2">
                     The Future of <br />
                     <ScrambleIn
-                      className="text-6xl md:text-7xl xl:text-[5rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-purple-400 inline-block text-transparent bg-clip-text leading-[6.8rem] -mb-6  font-sans"
+                      className="text-4xl sm:text-5xl md:text-7xl xl:text-[5rem] bg-gradient-to-r from-purple-600 via-indigo-500 to-purple-400 inline-block text-transparent bg-clip-text sm:leading-[6.8rem] -mb-6  font-sans"
                       text="Decentralized Intelligence"
                       scrambleSpeed={5}
                       scrambledLetterCount={5}

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ScrambleIn from "./animations/ScrambleIn";
 
 const LaunchAndSupply = () => {
@@ -14,10 +15,10 @@ const LaunchAndSupply = () => {
         />
       </h2>
 
-      <h2 className="text-3xl md:text-5xl font-bold leading-tight mb-12">Transparent & Fair Allocation</h2>
+      <h2 className="text-xl md:text-3xl mb-12">Transparent & Fair Allocation</h2>
 
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-center flex-wrap-reverse">
           {/* Left Section: Text Content */}
           <div>
             <h4 className="text-lg font-semibold mb-2">Total Supply:</h4>
@@ -65,12 +66,7 @@ const LaunchAndSupply = () => {
 
           {/* Right Section: Decorative Content */}
           <div className="flex justify-center items-center">
-            <div className="bg-gradient-to-r from-purple-500 to-blue-500 p-12 rounded-[6px] shadow-lg text-center">
-              <h3 className="text-2xl font-bold text-white mb-4">Join the Revolution</h3>
-              <p className="text-slate-200 leading-relaxed">
-                Be part of the future of AI-powered blockchain evolution. Secure your spot today and make a difference.
-              </p>
-            </div>
+            <Image src="/fairlaunch.jpg" alt="Tokenomics Illustration" width={500} height={500} className="rounded-[6px] shadow-lg" />
           </div>
         </div>
       </div>

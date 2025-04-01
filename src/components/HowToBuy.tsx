@@ -37,7 +37,7 @@ export default function Howtobuy() {
   return (
     <section className="py-12 md:py-20 lg:py-32 flex flex-col items-center relative">
       <HyperText
-        className="text-center text-4xl mb-10 font-normal  bg-gradient-to-r from-purple-600 to-purple-100 inline-block text-transparent bg-clip-text  font-sans"
+        className="text-center text-4xl mb-1 font-normal  bg-gradient-to-r from-purple-600 to-purple-100 inline-block text-transparent bg-clip-text font-sans"
         startOnView={true}
         animateOnHover={false}>
         How To Buy

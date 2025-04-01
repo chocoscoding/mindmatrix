@@ -6,11 +6,6 @@ import { HyperText } from "@/components/magicui/HyperText";
 import { ArrowRight } from "lucide-react";
 import ScrambleIn from "@/components/animations/ScrambleIn";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 const Page = () => {
   const container = useRef(null);
@@ -88,8 +83,8 @@ const Page = () => {
               <ScrambleIn
                 className="bg-gradient-to-r from-purple-600 via-indigo-500 to-purple-400 inline-block text-transparent bg-clip-text leading-[4.9rem] font-sans"
                 text=" Decentralized Intelligence"
-                scrambleSpeed={0.5}
-                scrambledLetterCount={10}
+                scrambleSpeed={5}
+                scrambledLetterCount={5}
                 characters="10"
               />
             </h1>

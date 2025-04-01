@@ -4,6 +4,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import React from "react";
 import { cn } from "@/lib/utils";
+import { Logo } from "./logo";
 
 const menuItems = [
   { name: "Home", href: "/" },
@@ -22,8 +23,8 @@ export const Nav = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <header>
-      <nav data-state={menuState && "active"} className="fixed z-20 w-full px-2">
+    <header className="w-full max-w-[50%]">
+      <nav data-state={menuState && "active"} className="fixed z-20 w-full px-2 max-w-[99vw]">
         <div
           className={cn(
             "mx-auto mt-2 max-w-6xl px-6 transition-all duration-300 lg:px-12",
@@ -31,9 +32,7 @@ export const Nav = () => {
           )}>
           <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
             <div className="flex w-full justify-between lg:w-auto">
-              <Link href="/" aria-label="home" className="flex items-center space-x-2">
-                <p className="text-white font-bold font-sans text-2xl">MM</p>
-              </Link>
+              <Logo />
 
               <button
                 onClick={() => setMenuState(!menuState)}

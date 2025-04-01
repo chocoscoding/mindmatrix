@@ -3,6 +3,8 @@ import { Tektur, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Nav } from "@/components/Nav";
+import FooterSection from "@/components/Footer";
+import Assistant from "@/components/Assistant";
 
 const geistSans = Tektur({
   variable: "--font-geist-sans",
@@ -32,9 +34,11 @@ export default function RootLayout({
           geistSans.variable,
           geistMono.variable
         )}>
-        <div className="w-full relative">
+        <div className="w-full relative max-w-[1600px] mx-auto overflow-hidden">
           <Nav />
           {children}
+          <FooterSection />
+          <Assistant />
         </div>
       </body>
     </html>
