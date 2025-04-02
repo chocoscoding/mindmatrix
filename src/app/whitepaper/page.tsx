@@ -2,8 +2,7 @@
 import React, { useRef } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { HyperText } from "@/components/magicui/HyperText";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 import ScrambleIn from "@/components/animations/ScrambleIn";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 
@@ -56,6 +55,18 @@ const Page = () => {
     "Real-time blockchain communication tools",
   ];
 
+  // Function to handle whitepaper download
+  const handleDownloadWhitepaper = () => {
+    // Create an anchor element and set properties
+    const link = document.createElement("a");
+    link.href = "/mindmatrix-Whitepaper.docx";
+    link.download = "mindmatrix-Whitepaper.docx";
+    // Append to the document, click and remove
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div ref={container} className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -95,11 +106,12 @@ const Page = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="rounded-[6px] px-5 text-base bg-purple-500 hover:bg-purple-400 text-white">
+              <Button
+                size="lg"
+                className="rounded-[6px] px-5 text-base bg-purple-500 hover:bg-purple-400 text-white"
+                onClick={handleDownloadWhitepaper}>
+                <Download className="mr-2 h-4 w-4" />
                 <span className="text-nowrap">Download Whitepaper</span>
-              </Button>
-              <Button variant="outline" size="lg" className="rounded-[6px] px-5 text-base">
-                <span className="text-nowrap">Join Community</span>
               </Button>
             </div>
           </div>
@@ -110,11 +122,13 @@ const Page = () => {
       <section className="py-16 md:py-24 bg-black/5">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center">
-            <HyperText
-              animateOnHover={false}
-              className="bg-gradient-to-r from-purple-600 to-purple-100 inline-block text-transparent bg-clip-text font-sans">
-              Additional Technical Sections
-            </HyperText>
+            <ScrambleIn
+              className="bg-gradient-to-r from-purple-600 to-purple-100 inline-block text-transparent bg-clip-text font-sans"
+              text="Additional Technical Sections"
+              scrambleSpeed={5}
+              scrambledLetterCount={5}
+              characters="10"
+            />
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -177,11 +191,13 @@ const Page = () => {
       <section className="py-16 md:py-24 bg-black/5">
         <div className="mx-auto max-w-6xl px-6">
           <h2 className="text-3xl md:text-4xl font-bold mb-16 text-center">
-            <HyperText
-              animateOnHover={false}
-              className="bg-gradient-to-r from-purple-600 to-purple-100 inline-block text-transparent bg-clip-text font-sans">
-              Advanced Technical Features
-            </HyperText>
+            <ScrambleIn
+              className="bg-gradient-to-r from-purple-600 to-purple-100 inline-block text-transparent bg-clip-text font-sans"
+              text="Advanced Technical Features"
+              scrambleSpeed={5}
+              scrambledLetterCount={5}
+              characters="10"
+            />
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
